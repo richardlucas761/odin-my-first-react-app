@@ -1,3 +1,5 @@
+import { animals } from './noanimals.js';
+
 function List(props) {
     return (
         <>
@@ -17,8 +19,6 @@ function List(props) {
 }
 
 function NoAnimals() {
-    const animals = [];
-
     return (
         <div>
             <h1>Animals</h1>

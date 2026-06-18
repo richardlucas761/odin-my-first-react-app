@@ -1,3 +1,5 @@
+import { animals } from './animals.js';
+
 function ListItem(props) {
     return <li>{props.animal}</li>
 }
@@ -13,7 +15,6 @@ function List(props) {
 }
 
 function AnimalsStarting() {
-    const animals = ["Lion", "Cow", "Snake", "Mongoose", "Haggis", "Lemur", "Hippo"];
     const startsWith = 'H';
 
     return (
