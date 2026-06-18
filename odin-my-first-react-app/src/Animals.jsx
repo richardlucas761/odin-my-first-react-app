@@ -12,7 +12,7 @@ function List(props) {
     );
 }
 
-function App() {
+function AnimalsStarting() {
     const animals = ["Lion", "Cow", "Snake", "Mongoose", "Haggis", "Lemur", "Hippo"];
     const startsWith = 'H';
 

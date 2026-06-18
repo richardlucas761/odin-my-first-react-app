@@ -6,10 +6,12 @@ import './index.css'
 // import DefaultFood, { SavouryFood } from "./Foods.jsx"
 // import App from './Button.jsx';
 import AnimalsStarting from './Animals.jsx';
+import NoAnimals from './NoAnimals.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AnimalsStarting />
+    <NoAnimals />
     {/* <DefaultFood />
     <SavouryFood />
     <Greeting />
