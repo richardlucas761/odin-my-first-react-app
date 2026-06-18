@@ -1,5 +1,5 @@
 function DefaultFood() {
-    return <h1>Default is cake.</h1>;
+    return <h1>DefaultFood is cake.</h1>;
 }
 
 function SavouryFood() {
