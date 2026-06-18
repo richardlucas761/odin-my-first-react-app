@@ -5,11 +5,11 @@ import './index.css'
 // import Greeting from "./Greeting.jsx";
 // import DefaultFood, { SavouryFood } from "./Foods.jsx"
 // import App from './Button.jsx';
-import App from './Animals.jsx';
+import AnimalsStarting from './Animals.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <AnimalsStarting />
     {/* <DefaultFood />
     <SavouryFood />
     <Greeting />
